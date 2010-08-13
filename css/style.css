@@ -163,7 +163,20 @@ button {  width: auto; overflow: visible; }
    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img { -ms-interpolation-mode: bicubic; }
 
-
+/* html5 elements */
+header {}
+nav {}
+menu {}
+aside {}
+section {}
+article {}
+figure {}
+hgroup {}
+footer {}
+time {}
+mark {}
+audio {}
+video {}
 
 /* 
  * Non-semantic helper classes 
@@ -192,7 +205,8 @@ button {  width: auto; overflow: visible; }
 * html .clearfix { height: 1%; } /* Hides from IE-mac \*/
 .clearfix { display: block; }
 
-
+/* javascript not enabled */
+.no-js {}
 
 
 
@@ -200,10 +214,11 @@ button {  width: auto; overflow: visible; }
     Author: 
  */
 
-
-
-
-
+/* ids */
+#container {}
+#topnav {}
+#main {}
+#footernav {}
 
 
 
